@@ -1,0 +1,37 @@
+{
+  "name": "jenkins_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm install inherits && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psosnows/docker-demo.git"
+  },
+  "author": "Pawel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psosnows/docker-demo/issues"
+  },
+  "homepage": "https://github.com/psosnows/docker-demo#readme",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "express": "latest",
+    "http-errors": "latest",
+    "mysql": "latest"
+  },
+  "devDependencies": {
+    "inherits": "latest",
+    "mocha": "latest",
+    "ms": "latest"
+  }
+}
